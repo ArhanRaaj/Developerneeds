@@ -142,9 +142,8 @@ export default function ProductDetailPage() {
                       key={img.id}
                       onClick={() => setActiveImage(i)}
                       className={`w-16 h-16 rounded-lg overflow-hidden transition-all ${
-                        i === activeImage ? "ring-2" : "opacity-60 hover:opacity-100"
+                        i === activeImage ? "ring-2 ring-[#00d4ff]" : "opacity-60 hover:opacity-100"
                       }`}
-                      style={i === activeImage ? { ringColor: "#00d4ff" } : {}}
                     >
                       <img src={img.url} alt="" className="w-full h-full object-cover" />
                     </button>
