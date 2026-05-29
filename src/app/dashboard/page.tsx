@@ -2,7 +2,7 @@
 
 import { useSession } from "next-auth/react";
 import GlassCard from "@/components/shared/GlassCard";
-import { Package, Download, Heart, Eye } from "lucide-react";
+import { Package, Download, Heart, Eye, User, Upload } from "lucide-react";
 import Link from "next/link";
 
 export default function DashboardPage() {
